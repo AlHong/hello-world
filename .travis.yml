@@ -7,4 +7,4 @@ notifications:
 sudo: false # faster builds
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -t 403319bc-0c1a-406c-8987-44e297c7a964
+bash <(curl -s https://codecov.io/bash) -t 403319bc-0c1a-406c-8987-44e297c7a964
