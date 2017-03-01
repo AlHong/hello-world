@@ -1,6 +1,9 @@
 language: java
 script: "mvn cobertura:cobertura"
 
+mvn test -B
+mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
 notifications:
   email: false
 
